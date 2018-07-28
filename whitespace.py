@@ -1,0 +1,2 @@
+favLang='python '
+print(favLang)
