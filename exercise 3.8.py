@@ -1,0 +1,10 @@
+Location=['Paris','Egypt','Canada','Maldives','Antarctica']
+print(Location)
+print(sorted(Location))
+print(Location)
+Location.reverse()
+print(Location)
+Location.sort()
+print(Location)
+Location.sort(reverse=True)
+print(Location)

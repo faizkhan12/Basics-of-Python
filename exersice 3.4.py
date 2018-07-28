@@ -1,0 +1,16 @@
+guestList=['Amit','Prashant','Shad','Basit']
+print(guestList)
+print("Dear "+guestList[0],"You are invited to my party.")
+print("Dear "+guestList[1],"You are invited to my party.")
+print("Dear "+guestList[2],"You are invited to my party.")
+print("Dear "+guestList[3],"You are invited to my party.")
+oldInvi='Amit'
+guestList.remove(oldInvi)
+print(guestList)
+print(oldInvi+" cant make it to the party.")
+guestList.append('Asif')
+print(guestList)
+print("Dear "+guestList[0],"You are invited to my party.")
+print("Dear "+guestList[1],"You are invited to my party.")
+print("Dear "+guestList[2],"You are invited to my party.")
+print("Dear "+guestList[3],"You are invited to my party.")
